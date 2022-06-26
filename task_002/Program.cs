@@ -6,13 +6,19 @@
 // a = -9 b = -3 -> max = -3
 
 
+Console.WriteLine("Введите число a:");
+int a = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите число b:");
+int b = Convert.ToInt32(Console.ReadLine());
 
 
-int a = 9;
-int b = 7;
-int max = b;
-int min = a;
-if (a > max) max = a;
-if (b < min) min = b;
-Console.WriteLine(max);
-Console.WriteLine(min);
+
+if (a > b)
+{
+    Console.WriteLine("{0} наибольшее число", a);
+}
+else
+{
+    Console.WriteLine("{0} наибольшее число", b);
+}
+
