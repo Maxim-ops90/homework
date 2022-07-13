@@ -18,7 +18,8 @@ int SumNumber(int number)
         number = number / 10;
     }
     return summa;
+    
 }
 
 int sum = SumNumber(num);
-Console.WriteLine($"Сумма цифр в числе {num} равна {sum}");
+Console.Write($"Сумма цифр в числе {num} равна {sum}");
