@@ -7,7 +7,7 @@ Double[] arrayNumbers = new Double[5];
 for (int i = 0; i < arrayNumbers.Length; i++)
 
 {
-    arrayNumbers[i] = new Random().Next(1, 10);
+    arrayNumbers[i] = new Random().Next(1, 100);
     Console.Write(arrayNumbers[i] + " ");
 }
 
